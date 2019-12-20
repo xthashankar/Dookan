@@ -1,0 +1,145 @@
+/* 1.profile and container clash*/
+/*navigation bar*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+	margin: 0 ;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-color: #EFEFEF;
+	height: auto;
+}
+.navig{
+  background-color:black;
+  width: 100%;
+  height: 50px;
+
+}
+
+/*whole div*/
+.container{
+	background-color:white;
+	width :90%;
+	height:800px;
+	margin: 20px auto;
+	padding: 60px;
+
+
+}
+ /*image container*/
+.left-container{
+	width: 50%;
+	float: left;
+	/*background-color: blue;*/
+}
+
+.user-img{
+	width:80px;
+	height:80px;
+
+
+	/*background-color:red;*/
+}
+/*.prd-img{ !-- backgrd div of product images -->
+	background-color:green;
+	float: left;
+}
+*/
+
+.product-img{
+	/*width: 600px;
+	height:400px;*/
+
+}
+
+.img-profile{
+  width:80px;
+  height: 80px;
+ /* float: right;*/
+
+}
+
+  /*content container*/
+.right-container{
+	/*background-color: pink;*/
+	float: right;
+	width:50%;
+}
+.user-detail{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: space-between;*/
+	align-items: center;
+	font-style:italic;
+	 padding: 20px;
+}
+
+.user-box{
+	width: 50%;
+	 padding: 20px;
+	}
+	.user-box h3{
+		color:#71757a;
+	}
+
+ .user-box button{
+  border-radius: 15px;
+  background-color: #28C921;
+  width: 100px;
+  height:20px;
+  color: white;
+}
+
+
+.content-description h3{
+	color:#71757a;
+	width: 70%;
+}
+
+.con-title h1{
+  color: #3a3e42;
+
+}
+.rating h3{
+	color:#a7bd04;
+}
+
+.pricing h2{
+	color: #28C921;
+}
+
+
+.btn-cart{
+	width:250px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: #EAC519;
+	margin: 20px;
+	color: white;
+	border:1px solid white ;
+}
+.btn-buy{
+	width:250px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: #28C921;
+	color: white;
+	margin: 20px;
+	border:1px solid white ;
+}
+/*quantity button*/
+/*#myform {
+    text-align: center;
+    padding: 5px;
+    border: 1px dotted #ccc;
+    margin: 2%;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}*/
